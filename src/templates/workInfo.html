@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .styled-table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+    <title>Employee_details</title>
+</head>
+<body>
+    <h1 style="text-align:center">سامانه انجام کار</h1>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>عنوان  کار</th>
+                <th>ارزش کار</th>
+                <th>تخمین زمانی</th>
+                <th>صاحب کار</th>
+                <th>     </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>مهدی</td>
+                <td>یک هفته</td>
+                <td>۳۰۰ هزار تومان</td>
+                <td>ترجمه مقاله</td>
+                <td><button>توضیح</button></td>
+            </tr>
+            <tr>
+                <td>محمد</td>
+                <td>۴ روز</td>
+                <td>۳۰ هزار تومان</td>
+                <td>روشویی فرش</td>
+                <td><button>توضیح</button></td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+    <h2 style="text-align:center">
+        <pre><a href="google.com"><u>قوانین و مقررات</u></a>                  <a href="url"><u>درباره ما</u></a></pre>
+    </h2>
+</body>
+</html>
